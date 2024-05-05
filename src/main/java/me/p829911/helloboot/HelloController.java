@@ -1,9 +1,11 @@
 package me.p829911.helloboot;
 
-import org.springframework.web.bind.annotation.RequestParam;
+
+import java.util.Objects;
 
 public class HelloController {
-	public String hello(@RequestParam String name) {
-		return "Hello " + name;
+	public String hello(String name) {
+		SimpleHelloService helloService = new SimpleHelloService();
+    return helloService.sayHello(Objects.requireNonNull(name));
 	}
 }
