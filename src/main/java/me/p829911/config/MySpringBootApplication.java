@@ -1,4 +1,4 @@
-package me.p829911.helloboot;
+package me.p829911.config;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -11,4 +11,5 @@ import org.springframework.context.annotation.Configuration;
 @Target(ElementType.TYPE)
 @Configuration
 @ComponentScan
-public @interface MySpringBootAnnotation {}
+@EnableMyAutoConfiguration
+public @interface MySpringBootApplication {}
