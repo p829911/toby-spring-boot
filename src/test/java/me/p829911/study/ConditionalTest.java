@@ -17,7 +17,7 @@ import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.type.AnnotatedTypeMetadata;
 
-public class ConditionalTest {
+class ConditionalTest {
 
   @Test
   @DisplayName("conditional test")
