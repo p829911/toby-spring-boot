@@ -1,6 +1,8 @@
 package me.p829911.config.autoconfig;
 
+import me.p829911.config.MyConfigurationProperties;
 
+@MyConfigurationProperties(prefix = "server")
 public class ServerProperties {
 
 	private String contextPath;
