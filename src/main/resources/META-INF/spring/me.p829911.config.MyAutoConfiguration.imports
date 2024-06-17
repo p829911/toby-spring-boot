@@ -1,3 +1,4 @@
+me.p829911.config.autoconfig.ServerPropertiesConfig
 me.p829911.config.autoconfig.PropertyPlaceHolderConfig
 me.p829911.config.autoconfig.DispatcherServletConfig
 me.p829911.config.autoconfig.TomcatWebServerConfig
